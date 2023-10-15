@@ -1,0 +1,207 @@
+
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+
+.header{
+  background-image: url('../public/images/back.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: auto;
+}
+.login{
+  border-radius: 12px;
+  border: 2px solid #FFF;
+}
+.signLink{
+  border-radius: 12px;
+  background: #FFF;
+}
+.header-text span{
+  color: #FFD4DC;
+}
+.theme-col span{
+  color: #850043;
+}
+.punppy span{
+color: #850043;
+}
+ /* Apply styles to .special-link on screens with a minimum width of 992px (large screens) */
+ @media (min-width: 992px) {
+  .special-link {
+    border-radius: 12px;
+    background: #FFF;
+    color: #850043;
+  }
+  .special-link-1 {
+    border: 2px solid #FFF;
+    border-radius: 12px;
+  }
+  .header-text {
+    margin-top: 5rem; /* Adjust the top margin */
+    font-size: 30px;
+  }
+  h1{
+    font-size: 60px;
+  }
+  .foot{
+    text-align: right;
+    padding-right: 150px;
+  }
+  .mfoot{
+    padding-left: 150px;
+  }
+  .socials{
+    justify-content: flex-end;
+  }
+  .rec-cont{
+    padding: 0px 300px 0px 300px;
+  }
+  .small{
+    display: none;
+  }
+  .big{
+    display: block;
+  }
+}
+@media (max-width: 991px) {
+  .header-text {
+    text-align: center; /* Center-align the text */
+    padding: 1rem; /* Adjust the padding for center alignment */
+  }
+  .header-text h1 {
+    font-size: 2rem; /* Adjust the font size */
+  }
+  .mock{
+    width: 330px;
+  }
+  .girl{
+    display: none;
+  }
+  .rec-cont{
+    padding: 0px 30px 0px 30px;
+  }
+  .big{
+    display: none;
+  }
+}
+.sl{
+    border-radius: 12px;
+    background: #FFF;
+    color: #850043;
+  }
+  .sl1 {
+    border: 2px solid #FFF;
+    border-radius: 12px;
+
+  }
+  .cool{
+    text-align: center;
+    margin-top: 100px;
+  }
+  ul {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  .footer-link{
+    color: white;
+    text-decoration: none;
+  }
+  .socials {
+    display: flex;
+
+  }
+
+  .socials img {
+    max-width: 100%;
+    height: auto;
+  }
+     /* Custom styles for the list item */
+  .flex {
+      margin-bottom: 1.25rem; /* Equivalent to Bootstrap's mb-5 class */
+    }
+  
+    /* Flex container for aligning image and text */
+  .flex-container {
+      display: flex;
+      align-items: center; /* Vertically center-align items */
+    }
+  
+    /* Image style */
+  .image {
+      width: 50px;
+      height: auto; /* Maintain aspect ratio */
+      margin-right: 1rem; /* Add some spacing between image and text */
+    }
+  .people{
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .rectangle{
+    display: flex;
+    width: auto;
+    margin-bottom: 100px;
+    padding: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    border-radius: 25px;
+    background: #850043;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .rectangle p {
+    color: white;
+  }
+  .action{
+    display: flex;
+    align-items: center;
+  }
+  .action :first-child{
+    border: 2px white solid;
+    border-radius: 10px;
+    color: white;
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+  .action :last-child{
+    border: 2px white solid;
+    border-radius: 10px;
+    color: #850043;
+    background-color: white;
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
