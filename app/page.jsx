@@ -1,10 +1,17 @@
+"use client"
+
 import Image from 'next/image'
+import { useEffect } from 'react';
 
-
+import 'bootstrap/dist/css/bootstrap.css';
 import Navbar from './components/navbar/Navbar'
 
 
 export default function Home() {
+  useEffect(() => {
+    import('bootstrap/dist/js/bootstrap');
+  }, []);
+
 
   return (
     <div>
