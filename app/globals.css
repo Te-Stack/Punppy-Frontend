@@ -1,5 +1,24 @@
-
-
+/* Global CSS */
+:root{
+	--main-background:#F4F5FA;
+	--white-colour:#ffff;
+	--dark-grey:#65676B;
+	--grey-colour:#ABAFB1;
+	--red-colour:#850043;
+	--green-colour:#2daa48;
+	--light-green:#3ead69;
+	--lightest-green:#73a787;
+	--main-black:#252628;
+	--black-color:#050505;
+	--orange-colour:#cd7575;
+	--sharp-orange-colour:#ff5050;
+	--blue-colour:#E2CAFF;
+	--yellow-colour:#E5C03B;
+	--peach-colour:#FFC5C5;
+  --pink-colour: #FD69B2;
+  --deep-blue:#836D9E;
+	
+}
 
 * {
   box-sizing: border-box;
@@ -184,12 +203,6 @@ color: #850043;
     padding-left: 45px;
     padding-right: 45px;
   }
-
-
-
-
-
-
 
 
 

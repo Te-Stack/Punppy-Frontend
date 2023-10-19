@@ -1,10 +1,10 @@
 "use client"
 
-import Image from 'next/image'
 import { useEffect } from 'react';
 
-import 'bootstrap/dist/css/bootstrap.css';
+// import 'bootstrap/dist/css/bootstrap.css';
 import Navbar from './components/navbar/Navbar'
+import Footer from './components/footer/footer';
 
 
 export default function Home() {
@@ -40,6 +40,7 @@ export default function Home() {
   <img src="images/mock.png" className="img-fluid mock" width="700"/>
 </div>
       </div>
+      <Footer/>
 
         </div>
       
