@@ -1,17 +1,17 @@
-const Table = () => {
+const Table = ({h3, p}) => {
     return ( 
         <div className="details">
                     <div className="recentOrders">
                       <div className="cardHeader">
                           <div>
-                              <h3>New Users</h3>
-                              <p>Recently Signed Up Users</p>
+                              <h3>{h3}</h3>
+                              <p>{p}</p>
                           </div>
                           <div className="d-flex input">
-                              <span><img src="./icons/Search.png"/></span>
+                              <span><img src="icons/Search.png"/></span>
                               <input type="search" name="" id="" placeholder="              Search"/>
                               <select className="form-control" name="" id="">
-                                  <option value="">Action <img src="./icons/Arrow down.png"/></option>
+                                  <option value="">Action <img src="icons/Arrow down.png"/></option>
                               </select>
                           </div>
                         
