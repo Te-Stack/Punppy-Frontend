@@ -62,7 +62,7 @@ const Sidebar = () => {
         
           
               <li className="nav-item">
-                <Link className={`link ${pathname === '/admin/logout' ? 'nav-link active log' : 'nav-link log'}`} href="/admin/logout">
+                <Link className={`link ${pathname === '/admin/logout' ? 'nav-link active log' : 'nav-link log'}`} href="/logout">
                   <span className="icon"><img src="./icons/Logout.png" /></span>
                   <span data-feather="users"></span>
                   Log out

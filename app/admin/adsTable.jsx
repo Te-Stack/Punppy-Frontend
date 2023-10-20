@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 
-const Table = ({h3, p, href}) => {
+const AdsTable = ({h3, p, href}) => {
     return ( 
         <div className="details">
                     <div className="recentOrders">
@@ -25,7 +25,7 @@ const Table = ({h3, p, href}) => {
                           <thead>
                             <tr>
                               <th><input type="checkbox" className="form-check-input" id="exampleCheck1"/> id</th>
-                              <th>Email</th>
+                              <th>Content</th>
                               <th>Name</th>
                               <th>Date</th>
                               <th>Status</th>
@@ -34,22 +34,22 @@ const Table = ({h3, p, href}) => {
                           <tbody>
                             <tr>
                               <td> <input type="checkbox" className="form-check-input" id="exampleCheck1"/> 1000</td>
-                              <td>hello.user@gmail.com</td>
-                              <td><Link href={`${href}`}>Jane Cooper</Link></td>
+                              <td><Link href={`${href}`}>Write something important?</Link></td>
+                              <td>Robert Fox</td>
                               <td>5/5/2023</td>
                               <td><span className=" delivered">Active</span></td>
                             </tr>
                             <tr>
                               <td> <input type="checkbox" className="form-check-input" id="exampleCheck1"/> 1001</td>
-                              <td>hello.user@gmail.com</td>
-                              <td><Link href={`${href}`}>Jane Cooper</Link></td>
+                              <td><Link href={`${href}`}>Write something important?</Link></td>
+                              <td>Robert Fox</td>
                               <td>5/5/2023</td>
                               <td><span className="offline">Offline</span></td>
                             </tr>
                             <tr>
                               <td> <input type="checkbox" className="form-check-input" id="exampleCheck1"/>1002</td>
-                              <td>hello.user@gmail.com</td>
-                              <td><Link href={`${href}`}>Jane Cooper</Link></td>
+                              <td><Link href={`${href}`}>Write something important?</Link></td>
+                              <td>Robert Fox</td>
                               <td>5/5/2023</td>
                               <td><span className="restricted">Restricted</span></td>
                             </tr>
@@ -63,4 +63,4 @@ const Table = ({h3, p, href}) => {
      );
 }
  
-export default Table;
+export default AdsTable;

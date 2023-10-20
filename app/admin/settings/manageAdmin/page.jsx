@@ -1,13 +1,12 @@
 import Link from "next/link";
 
-
-const Settings = () => {
+const ManageAdmin = () => {
     return ( 
         <main role="main" className="col-md-9 ml-sm-auto col-lg-10 px-md-4 col-xl-8">
         <div className="d-flex">
             <div>
-                <h3 className="h3">Settings</h3>
-                <p>Adjust Preferences</p>
+                <h3 className="h3">Manage Admin</h3>
+                
 
             </div>
           
@@ -16,10 +15,10 @@ const Settings = () => {
         <div className="d-flex flex-column flex-lg-row ">
             <div className="slot1">
                 <div className="settingsbox">
-                  <Link href="./settings/newAdmin"  >
+                  <a href="addNewAdmin.html"  >
                     
                     <h6><span><img src="/icons/Add new admin icon.png" /></span> Add New Admin</h6>  
-                  </Link>                          
+                  </a>                          
                 </div>
                 <div className="settingsbox ">
                     <h6> <span><img src="/icons/creator_badge.png" /></span> Manage Ad Partners</h6>
@@ -29,10 +28,10 @@ const Settings = () => {
             <div className="slot2">
                 <div className="settingsbox">
                   
-                  <Link href="./settings/manageAdmin">
+                  <a href="Manage.html">
                     
                       <h6> <span><img src="/icons/Manage Admin icon.png" /></span>Manage Admins</h6>
-                    </Link>
+                    </a>
                     
                     
                 </div>
@@ -45,4 +44,4 @@ const Settings = () => {
      );
 }
  
-export default Settings;
+export default ManageAdmin;

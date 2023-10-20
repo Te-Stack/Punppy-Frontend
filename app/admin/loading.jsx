@@ -3,7 +3,7 @@ const loadingPage = ()=>{
         <div className="loader">
             <div id="loader-wrapper">
                 <div id="loader">
-                <img src="img/Spinner-1s-120px.gif"/>
+                <img src="/img/Spinner-1s-120px.gif"/>
                 </div>
                 <div className="loader-section section-left">
                 
