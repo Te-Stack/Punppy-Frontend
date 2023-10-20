@@ -40,7 +40,7 @@ export default function Home() {
   <img src="images/mock.png" className="img-fluid mock" width="700"/>
 </div>
       </div>
-      <Footer/>
+     
 
         </div>
       
@@ -165,6 +165,7 @@ export default function Home() {
       <h2>Something like Quora or Reddit, just better</h2>
       <p>Kick back, relax, and plug in to love, laughter, and good vibes</p>
       </div>
+      <Footer/>
 
       </div>
     </div>

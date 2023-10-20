@@ -1,4 +1,6 @@
+import Footer from "../components/footer/footer";
 import Navbar from "../components/navbar/darknavbar";
+
 
 const About = () => {
     return ( 
@@ -44,6 +46,7 @@ const About = () => {
 
   </div>
 </div>
+      <Footer/>
 
         </div>
      );
