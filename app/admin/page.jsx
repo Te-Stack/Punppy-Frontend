@@ -2,8 +2,8 @@
 import "./admin.css"
 
 import { useState, useEffect } from 'react';
-import Table from "./table";
-import loadingPage from "./loading";
+import Table from "./components/table";
+import loadingPage from "./components/loading";
 
 
 

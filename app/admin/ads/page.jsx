@@ -1,4 +1,4 @@
-import AdsTable from "../adsTable";
+import AdsTable from "../components/adsTable";
 
 
 
