@@ -1,3 +1,7 @@
+import Link from "next/link";
+
+
+
 const AdsView = () => {
     return ( 
         <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4 col-xl-8 bg-light">
@@ -29,7 +33,7 @@ const AdsView = () => {
                           </div>                            
                       <div>
                           <img class="btn" src="/img/three dots.png" />
-                          <a href="./"><img class="btn" src="/img/Cancel.png" /></a>
+                          <Link href="./"><img class="btn" src="/img/Cancel.png" /></Link>
                           
 
                       </div>

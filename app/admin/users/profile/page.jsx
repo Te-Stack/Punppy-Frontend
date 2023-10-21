@@ -1,3 +1,6 @@
+import Link from "next/link";
+
+
 const Profile = () => {
     return (
         <main role="main" className="col-md-9 ml-sm-auto col-lg-10 px-md-4 col-xl-8">
@@ -42,7 +45,7 @@ const Profile = () => {
                             </div>                            
                         <div>
                             {/* <!-- <p>New York</p> --> */}
-                            <a href="./"><img className="btn" src="/img/Cancel.png" /></a>
+                            <Link href="./"><img className="btn" src="/img/Cancel.png" /></Link>
                             
 
                         </div>

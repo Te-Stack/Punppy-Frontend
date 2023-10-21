@@ -15,10 +15,10 @@ const ManageAdmin = () => {
         <div className="d-flex flex-column flex-lg-row ">
             <div className="slot1">
                 <div className="settingsbox">
-                  <a href="addNewAdmin.html"  >
+                  <Link href="./newAdmin"  >
                     
                     <h6><span><img src="/icons/Add new admin icon.png" /></span> Add New Admin</h6>  
-                  </a>                          
+                  </Link>                          
                 </div>
                 <div className="settingsbox ">
                     <h6> <span><img src="/icons/creator_badge.png" /></span> Manage Ad Partners</h6>
@@ -28,10 +28,10 @@ const ManageAdmin = () => {
             <div className="slot2">
                 <div className="settingsbox">
                   
-                  <a href="Manage.html">
+                  <Link href="">
                     
                       <h6> <span><img src="/icons/Manage Admin icon.png" /></span>Manage Admins</h6>
-                    </a>
+                    </Link>
                     
                     
                 </div>

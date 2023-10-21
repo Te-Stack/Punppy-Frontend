@@ -1,3 +1,7 @@
+import Link from "next/link";
+
+
+
 const View = () => {
     return ( 
         <main role="main" className="col-md-9 ml-sm-auto col-lg-10 px-md-4 col-xl-8 bg-light">
@@ -32,7 +36,7 @@ const View = () => {
                             </div>                            
                         <div>
                             <img className="btn" src="/img/three dots.png" />
-                            <a href="./"><img className="btn" src="/img/Cancel.png"/></a>
+                            <Link href="./"><img className="btn" src="/img/Cancel.png"/></Link>
                             
 
                         </div>

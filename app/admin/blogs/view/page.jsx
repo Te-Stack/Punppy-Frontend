@@ -1,3 +1,7 @@
+import Link from "next/link";
+
+
+
 const BlogView = () => {
     return ( 
         <main role="main" className="col-md-9 ml-sm-auto col-lg-10 px-md-4 col-xl-8 bg-light">
@@ -21,7 +25,7 @@ const BlogView = () => {
                         </div>
                         
                         <div>
-                          <a href="./"><img src="/img/Cancel.png" alt=""/></a>
+                          <Link href="./"><img src="/img/Cancel.png" alt=""/></Link>
                           
                         </div>
                     </div>

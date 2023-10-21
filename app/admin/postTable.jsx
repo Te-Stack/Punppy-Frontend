@@ -12,9 +12,9 @@ const PostTable = ({h3, p, href}) => {
                               <h3>{h3}</h3>
                               <p>{p}</p>
                           </div>
-                          <div className="d-flex input">
-                              <span><img src="/icons/Search.png"/></span>
-                              <input type="search" name="" id="" placeholder="              Search"/>
+                          <div className="d-flex input text-center">
+                              <img className="btn" src="/icons/Search.png"/>
+                              <input type="search" className="text-center" name="" id="" placeholder="              Search"/>
                               <select className="form-control" name="" id="">
                                   <option value="">Action <img src="/icons/Arrow down.png"/></option>
                               </select>

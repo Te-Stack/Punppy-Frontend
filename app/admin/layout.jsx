@@ -1,8 +1,10 @@
 import Nav from "./nav"
 import Sidebar from "./sidebar"
 
-
-// import './admin.css'
+export const metadata = {
+  title: "Admin Dashboard",
+  description:"This is the admin dashboard for the Punppy app "
+};
 
 
 

@@ -5,6 +5,7 @@ import { useEffect } from 'react';
 // import 'bootstrap/dist/css/bootstrap.css';
 import Navbar from './components/navbar/Navbar'
 import Footer from './components/footer/footer';
+import "./globals.css"
 
 
 export default function Home() {

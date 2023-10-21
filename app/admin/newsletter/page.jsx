@@ -10,9 +10,9 @@ const Newsletter = () => {
                               <h3>Send Newsletter</h3>
                               <p>Send targeted email</p>
                           </div>
-                          <div className="d-flex input">
-                              <span><img src="/icons/Search.png" /></span>
-                              <input type="search" className="form-control" name="" id="" placeholder="              Search"/>
+                          <div className="d-flex input text-center">
+                              <img className="btn" src="/icons/Search.png" />
+                              <input type="search" className="form-control text-center" name="" id="" placeholder="              Search"/>
                           </div>
                         
                       </div>

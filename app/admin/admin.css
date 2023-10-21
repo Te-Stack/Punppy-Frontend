@@ -1,12 +1,6 @@
 /* Admin Dashboard CSS code */
 
 
-/*-------------
-Global Css
--------------*/
-
-
-
 
 
 a{
@@ -393,10 +387,16 @@ a{
       position:relative;
   }
   
-  .input span{
+  .input img{
       position: absolute;
       left: 10px;
-      top: 8px
+      top: 4px;
+      
+  }
+
+  .input span img{
+    cursor: pointer;
+
   }
   
   .profile-main{
@@ -557,43 +557,6 @@ a{
   
   }
   
-  .login{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  
-  
-  }
-  
-  form{
-    position: relative;
-    /* top: 5rem; */
-    width: 25rem;
-    padding: 20px 16px;
-    gap: 20px;
-    border-radius: 10px;
-    border: 1px solid var(--Box, #E4E6EB);
-    background: #FFF;
-  
-  /* Box */
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.05);
-  }
-  form .email{
-    position: absolute;
-    left: 2rem;
-  }
-  
-  form .lock{
-    position: absolute;
-    left: 2rem;
-  
-  }
-  
-  form .form-text{
-    position: absolute;
-    right: 10px;
-  }
   
   
   /* Preloader */
