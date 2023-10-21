@@ -1,4 +1,4 @@
-import PostTable from "../components/postTable";
+import PostTable from "../_components/postTable";
 
 
 const Blogs = () => {

@@ -3,8 +3,8 @@
 import { useEffect } from 'react';
 
 // import 'bootstrap/dist/css/bootstrap.css';
-import Navbar from './components/navbar/Navbar'
-import Footer from './components/footer/footer';
+import Navbar from './_components/navbar/Navbar'
+import Footer from './_components/footer/footer';
 import "./globals.css"
 
 

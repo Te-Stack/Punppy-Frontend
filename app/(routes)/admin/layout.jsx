@@ -1,4 +1,4 @@
-import Nav from "./components/nav"
+import Nav from "./_components/nav"
 import Sidebar from "./sidebar"
 
 export const metadata = {
