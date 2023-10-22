@@ -1,3 +1,4 @@
+import Nav from "./_components/navbar/Nav";
 
 
 export const metadata = {
@@ -14,6 +15,8 @@ export default function UserLayout({
     return (
       <section>
         {/* Include shared UI here e.g. a header or sidebar */}
+        <Nav/>
+        
        {children}
         
    

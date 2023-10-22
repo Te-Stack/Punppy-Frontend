@@ -12,7 +12,7 @@ const Table = ({h3, p, href}) => {
                           </div>
                           <div className="d-flex input text-center">
                               <img className="btn" src="/icons/Search.png"/>
-                              <input type="search" name="" id="" placeholder="              Search" className="text-center"/>
+                              <input type="search" name="" id="" placeholder="Search" className="text-center"/>
                               <select className="form-control" name="" id="">
                                   <option value="">Action <img src="/icons/Arrow down.png"/></option>
                               </select>
