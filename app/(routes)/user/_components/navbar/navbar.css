@@ -5,7 +5,7 @@
 .NavbarItems{
     display: block;
     position: relative;
-    background:white;
+    background:var(--white-colour);
     height: 80px;
     display: flex;
     justify-content: center;
@@ -131,4 +131,35 @@
 .input span img{
   cursor: pointer;
 
+}
+
+@media screen and (max-width:828px){
+    
+    .NavbarItems{
+        display: none;
+    }
+
+    .top{
+        display: flex;
+        justify-content: space-between;
+        background-color:var(--pink-colour) ;
+    }
+
+
+    .MobileNavbarItem{
+        display: block;
+        position: relative;
+        height:80px;
+    }
+
+    .navmenu{
+        display: grid;
+        grid-template-columns: repeat(6, auto);
+        grid-gap: 30px;
+        list-style: none;
+        text-align: center;
+        width: 90vw;
+        justify-content:end;
+    }
+    
 }

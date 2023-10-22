@@ -49,6 +49,7 @@ const Nav = () => {
                 </Link>
                 <div className="user">
                 <div className="Admin">
+
                     <img src="img/Ellipse 2.png"  />
                     <div className="online"></div>
                 </div>
