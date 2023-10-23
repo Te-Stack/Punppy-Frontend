@@ -43,15 +43,20 @@
     color:#312F2F;
     text-decoration: none;
     padding: 0.5rem 0;
+    font-size: 1.9rem;
     
 }
 
 
 .navlinks:hover{
     border-radius: 4px;
-    color: var(--red-colour);
+    color: var(--pink-colour);
     transition: all 0.5s ease-in;
     transform: scale(0.9);
+}
+
+.active{
+    color: var(--pink-colour) ;
 }
 
 
@@ -79,13 +84,15 @@
 
  
  .icons{
+    position: relative;
     font-size: 1.6rem;
     position: relative;
+    cursor: pointer;
    
     }
 
     .icons:hover{
-        color: var(--red-colour);
+        
         transition: all 0.5s ease-in;
         transform: scale(1.1);
     }
@@ -108,11 +115,20 @@
 
 .online{
     position: absolute;
-    bottom: 20px;
+    bottom: 2px;
     right: 3px;
     width: 10px;
     height: 10px;
     background-color: var(--green-colour);
+    border-radius: 5rem;
+}
+.backlog{
+    position: absolute;
+    top: 2px;
+    right: 3px;
+    width: 10px;
+    height: 10px;
+    background-color: var(--pink-colour);
     border-radius: 5rem;
 }
 
@@ -123,7 +139,7 @@
 
 .input img{
     position: absolute;
-    left: 10px;
+    left: 4px;
     top: 4px;
     
 }

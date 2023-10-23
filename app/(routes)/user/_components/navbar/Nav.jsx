@@ -1,10 +1,22 @@
+"use client"
 import Link from "next/link";
 import "./navbar.css"
 import MobileNav from "./MobileNav";
+import {BsChatHeart,BsJournalText, BsMessenger} from "react-icons/bs";
+import {AiOutlineHome} from "react-icons/ai";
+import {HiOutlineSpeakerphone} from "react-icons/hi"
+import {GrNotification} from "react-icons/gr"
+import { usePathname } from 'next/navigation'
+
+
+
+
+
 
 
 
 const Nav = () => {
+    const pathname = usePathname()
     return ( 
         <div>
         <nav className="NavbarItems">
@@ -17,16 +29,16 @@ const Nav = () => {
            
             <ul className="navmenu">
                     <li>
-                        <Link href="https://github.com/Te-Stack" className="navlinks"><img src="/usericons/Homevector.png" /></Link>
+                        <Link href="/user" className={`link ${pathname === '/user' ? 'navlinks active' : 'navlinks'}`}><AiOutlineHome/></Link>
                     </li>
                     <li>
-                        <Link className="navlinks" href="https://github.com/Te-Stack" ><img src="/usericons/LovechatVector.png" /></Link>
+                        <Link className={`link ${pathname === '/user/findMatch' ? 'navlinks active' : 'navlinks'}`} href="/user/findMatch" ><BsChatHeart/></Link>
                     </li> 
                     <li>
-                        <Link className="navlinks" href="https://github.com/Te-Stack"><img src="/usericons/Blogvector.png" /></Link>
+                        <Link  className={`link ${pathname === '/user/blog' ? 'navlinks active' : 'navlinks'}`} href="/user/blog"><BsJournalText/></Link>
                     </li>
                     <li>
-                        <Link className="navlinks" href="https://github.com/Te-Stack"><img src="/usericons/Campaignvector.png" /></Link>
+                        <Link className={`link ${pathname === '/user/ads' ? 'navlinks active' : 'navlinks'}`} href="/user/ads"><HiOutlineSpeakerphone/></Link>
                     </li>     
                 </ul>
                 <div className="Search">
@@ -38,15 +50,21 @@ const Nav = () => {
                 
                 
                 <div className="icons">
+                <Link className={`link ${pathname === '/user/messages' ? 'navlinks ' : 'navlinks'}`} href="/user/messages"><BsMessenger/></Link>
                     
-                    <img src="/usericons/Messengervector.png" />
+                    
+                    
+                    <div className="backlog"></div>
+
                 </div>
                 
-                <Link className="icons" href="" >
+                <div className="icons" >
+                <Link className={`link ${pathname === '/user/notification' ? 'navlinks active' : 'navlinks'}`} href="/user/notification"><GrNotification/></Link>
                    
-                    <img src="/usericons/notificationVector.png" />
+                    
+                    <div className="backlog"></div>
                 
-                </Link>
+                </div>
                 <div className="user">
                 <div className="Admin">
 
