@@ -16,7 +16,7 @@ const MobileNav = () => {
             <Link href="/"><img className="navbarlogo" src="/img/Punppy_white 1.png" /></Link>
             <div className="user">
                 <div className="Admin">
-                    <AiOutlineSearch />
+                    {/* <AiOutlineSearch /> */}
                     <img src="img/Ellipse 2.png"  />
                     <div className="online"></div>
                 </div>
